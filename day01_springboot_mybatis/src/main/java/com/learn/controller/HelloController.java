@@ -2,15 +2,13 @@ package com.learn.controller;
 
 import com.learn.bean.User;
 import com.learn.mappers.UserMapper;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -19,7 +17,7 @@ public class HelloController {
     @Autowired
     private UserMapper userMapper;
 
-    public static Logger logger = LogManager.getLogger(HelloController.class);
+    private static Logger logger = LogManager.getLogger(HelloController.class);
 
     @PostMapping("/save")
     public void save(User user){
@@ -39,6 +37,8 @@ public class HelloController {
     @GetMapping("/findAll")
     public List<User> findAll(){
         logger.info("findAll");
+        logger.error("findAll");
+        logger.debug("findAll");
         return userMapper.findAll();
     }
 

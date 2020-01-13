@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8338bf74-ddbb-4a7e-9871-4e7fb515f80c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/config/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/day01_springboot_mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/day01_springboot_mybatis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/day01_springboot_mybatis.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/Mappers/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/SpringbootMybatisApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/bean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/learn/Day01SpringbootMybatisApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/SpringbootMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/SpringbootMybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/learn/Day01SpringbootMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learn/Day01SpringbootMybatisApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,29 +33,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/Day01SpringbootMybatisApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="-208">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/config/MyConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31266">
-              <caret line="1371" column="18" selection-start-line="1371" selection-start-column="18" selection-end-line="1371" selection-end-column="18" />
+            <state relative-caret-position="189">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/bean/User.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar!/org/springframework/test/context/junit4/SpringRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="147">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -87,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="351">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -110,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/SpringbootMybatisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,13 +123,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/utils/TimerUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
               </folding>
@@ -149,12 +152,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/learn/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/learn/Day01SpringbootMybatisApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/learn/SpringbootMybatisApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/utils/TimerUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/learn/Day01SpringbootMybatisApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/config/MyConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/SpringbootMybatisApplication.java" />
       </list>
     </option>
   </component>
@@ -166,11 +170,22 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="160" />
-    <option name="y" value="61" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="day01_springboot_mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="175" />
+    <option name="y" value="95" />
     <option name="width" value="1406" />
-    <option name="height" value="795" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,6 +225,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day01_springboot_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day01_springboot_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day01_springboot_mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -296,7 +320,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootMybatisApplication">
+  <component name="RunManager" selected="JUnit.Day01SpringbootMybatisApplicationTests.testREST">
+    <configuration name="Day01SpringbootMybatisApplicationTests.testREST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day01_springboot_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learn" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.Day01SpringbootMybatisApplicationTests" />
+      <option name="METHOD_NAME" value="testREST" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Day01SpringbootMybatisApplicationTests.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day01_springboot_mybatis" />
       <extension name="coverage">
@@ -329,6 +369,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day01SpringbootMybatisApplicationTests.testREST" />
         <item itemvalue="Spring Boot.SpringbootMybatisApplication" />
         <item itemvalue="JUnit.Day01SpringbootMybatisApplicationTests.testRedis" />
       </list>
@@ -346,23 +387,11 @@
       <updated>1578735302953</updated>
       <workItem from="1578735306346" duration="226000" />
       <workItem from="1578735561571" duration="4958000" />
-      <workItem from="1578896334008" duration="3036000" />
+      <workItem from="1578896334008" duration="6720000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Day01SpringbootMybatisApplicationTests_testRedis - 2020.01.11 at 20h 55m 16s.xml">
-      <configuration name="Day01SpringbootMybatisApplicationTests.testRedis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Day01SpringbootMybatisApplicationTests_testRedis - 2020.01.11 at 20h 55m 49s.xml">
-      <configuration name="Day01SpringbootMybatisApplicationTests.testRedis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Day01SpringbootMybatisApplicationTests_testRedis - 2020.01.11 at 20h 57m 18s.xml">
-      <configuration name="Day01SpringbootMybatisApplicationTests.testRedis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Day01SpringbootMybatisApplicationTests_testRedis - 2020.01.11 at 20h 57m 30s.xml">
-      <configuration name="Day01SpringbootMybatisApplicationTests.testRedis" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Day01SpringbootMybatisApplicationTests_testRedis - 2020.01.11 at 21h 11m 53s.xml">
       <configuration name="Day01SpringbootMybatisApplicationTests.testRedis" configurationId="JUnit" />
     </history-entry>
@@ -372,15 +401,36 @@
     <history-entry file="Day01SpringbootMybatisApplicationTests_testRedis - 2020.01.13 at 14h 43m 56s.xml">
       <configuration name="Day01SpringbootMybatisApplicationTests.testRedis" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Day01SpringbootMybatisApplicationTests_testREST - 2020.01.13 at 16h 21m 11s.xml">
+      <configuration name="Day01SpringbootMybatisApplicationTests.testREST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day01SpringbootMybatisApplicationTests_testREST - 2020.01.13 at 16h 21m 48s.xml">
+      <configuration name="Day01SpringbootMybatisApplicationTests.testREST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day01SpringbootMybatisApplicationTests_testREST - 2020.01.13 at 16h 22m 10s.xml">
+      <configuration name="Day01SpringbootMybatisApplicationTests.testREST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day01SpringbootMybatisApplicationTests_testREST - 2020.01.13 at 16h 22m 28s.xml">
+      <configuration name="Day01SpringbootMybatisApplicationTests.testREST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day01SpringbootMybatisApplicationTests_testREST - 2020.01.13 at 16h 23m 07s.xml">
+      <configuration name="Day01SpringbootMybatisApplicationTests.testREST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day01SpringbootMybatisApplicationTests_testREST - 2020.01.13 at 16h 24m 19s.xml">
+      <configuration name="Day01SpringbootMybatisApplicationTests.testREST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Day01SpringbootMybatisApplicationTests_testREST - 2020.01.13 at 16h 28m 12s.xml">
+      <configuration name="Day01SpringbootMybatisApplicationTests.testREST" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8220000" />
+    <option name="totallyTimeSpent" value="11904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="61" width="1406" height="795" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35215452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -390,8 +440,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.61875945" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.66377443" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5444685" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -403,11 +453,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.3295129" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32986626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32986626" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -418,6 +469,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/day01_springboot_mybatis$Day01SpringbootMybatisApplicationTests_testREST.ic" NAME="Day01SpringbootMybatisApplicationTests.testREST Coverage Results" MODIFIED="1578903717125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.learn.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
@@ -476,27 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/Day01SpringbootMybatisApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -526,24 +561,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/utils/TimerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar!/org/springframework/test/context/junit4/SpringRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/SpringbootMybatisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/utils/TimerUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/config/MyConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="189">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/Day01SpringbootMybatisApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
